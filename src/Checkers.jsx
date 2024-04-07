@@ -66,6 +66,7 @@ function Checkers() {
             ["w", "*", "w", "*", "w", "*", "w", "*"]
         ]
         setMoves([])
+        setMessage()
         forcedCaptures = document.getElementById("forcedCaptures").checked
         canCaptureBackwards = document.getElementById("canCaptureBackwards").checked
         flyingKing = document.getElementById("flyingKing").checked
